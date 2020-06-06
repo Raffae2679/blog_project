@@ -1,0 +1,101 @@
+/** CABEÇALHO + NAVBAR */
+header{
+    background: #2d2d2d;
+    
+}
+
+.cabe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-cabe{
+    display:flex;
+    margin-right: 20px;
+}
+
+nav li{
+	margin:0 0 0 40px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #ececec;
+	cursor: pointer;
+}
+
+nav  li:hover{	
+	transition: 1s;
+	color:#f2a365;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.cabe img{
+	height: 90px;
+	width: 85px;
+    border-radius:100px;
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+/** FIM CABEÇALHO + NAVBAR */
+
+/** GRID DAS FOTOS */
+
+.gridpost{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	height: 100%;
+}
+body{
+    background-color: red;
+}
+.gridpost img{
+    width: 33.33%;
+	height:450px;
+}
+
+
+@media (max-width: 768px){
+    .gridpost img{
+        width: 100%;
+        height: 600px;
+    }
+    nav li{
+        font-size: 15px;
+    }
+    .cabe img{
+        height: 40px;
+        width: 35px;
+    }
+}
+
+/** FIM GRID FOTOS */
+
+/** INICIO DO FOOTER */
+
+.rodape{
+    background: #373737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.rodape p{
+    margin-top: 1%;
+    margin-left: 1%;
+	font-weight: bold;
+}
+
+.icones{
+    margin-top: 10px;
+    margin-right: 10px;
+	height: 30px;
+	width: 30px;
+}
+
+
+/** FIM FOOTER */
