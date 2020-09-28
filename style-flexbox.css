@@ -1,4 +1,5 @@
 /** CABEÇALHO + NAVBAR */
+
 header{
     background: #2d2d2d;
     
@@ -27,7 +28,9 @@ nav  li:hover{
 	transition: 1s;
 	color:#f2a365;
 	font-size: 24px;
-	text-decoration: underline;
+    text-decoration: underline;
+    
+    
 }
 
 .cabe img{
@@ -49,19 +52,388 @@ nav  li:hover{
     width: 100%;
 	height: 100%;
 }
+
 body{
     background-color: red;
 }
+
 .gridpost img{
     width: 33.33%;
 	height:450px;
 }
 
+.hover:hover{
+    opacity: 80%;
+}
+
+.overfade{
+    opacity: 0;
+	position: absolute;
+	width: 33.33%;
+	height:450px;
+}
+
+/**----- CARD Cinza ----*/
+
+.cinza{
+	background:#D3D3D3;
+	top:103px;
+    left: 0px;
+    height: 450px;
+    width: 33.3%;
+	transition: 2s all;
+}
+
+.cinza p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: black;
+	
+}
+
+.cinza button{
+	margin-top: 150px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: grey;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.cinza img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.cinza button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+/** ----- FIM DO CARD CINZA -----*/
+
+/**----- CARD ROXO ----*/
+
+.roxo{
+	background: #8A2BE2;
+	top:103px;
+    left: 33.3%;
+    height: 450px;
+	width: 33.3%;
+	transition: 2s all;
+}
+
+.roxo p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #dfcbe4;
+	opacity: 100%!important;
+}
+
+
+.roxo img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.roxo button{
+	margin-top: 100px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #a23c64;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.roxo button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+
+/** -------- FIM DO CARD ROXO --------*/
+
+
+/**----- CARD CASTANHO -----*/
+
+.castanho{
+	background: #CD853F;
+	top:103px;
+	left: 66.6%;
+    width: 33.3%;
+    height:450px;
+	transition: 2s all;
+}
+
+.castanho p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #390f08;
+	opacity: 100%!important;
+}
+
+.castanho img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.castanho button{
+	margin-top: 150px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #ac5226;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.castanho button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+
+/**----- FIM DO CARD CASTANHO -----*/
+
+
+/**----- CARD AMARELO -----*/
+
+.amarelo{
+	background: #d0a669;
+	top:448px;
+	left: 0px;
+	width: 33.0%;
+	height: 450px;
+	transition: 2s all;
+}
+
+.amarelo p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #390f08;
+	opacity: 100%!important;
+}
+
+.amarelo img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.amarelo button{
+	margin-top: 150px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #ac5226;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.amarelo button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+
+/**----- FIM DO CARD AMARELO -----*/ 
+
+/**----- CARD VERDE -----*/
+
+.verde{
+	background: #5c9c85;
+	top:448px;
+	left: 432px;
+	width: 33.4%;
+	transition: 2s all;
+}
+
+.verde p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #1e5765;
+	opacity: 100%!important;
+}
+
+.verde img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.verde button{
+	margin-top: 50px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #1e5765;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.verde button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+
+
+/**----- FIM DO CARD VERDE -----*/
+
+/**----- CARD AZUL -----*/
+
+.azul{
+	background: #7a8c9a;
+	top:448px;
+	left: 869px;
+	width: 33.5%;
+	height: 451px;
+	transition: 2s all;
+}
+
+.azul p{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #585154;
+	opacity: 100%!important;
+}
+
+.azul img{
+	height: 100px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 160px;
+	display: block;
+}
+
+.azul button{
+	margin-top: 150px;
+	margin-left: 150px;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #585154;
+	opacity: 100%!important;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	color: #dfcbe4; 
+	cursor: pointer;
+	
+
+}
+
+.azul button:hover{
+	transform: scale(1.2);
+	transition: 1s all;
+	
+}
+
+
+
+/**----- FIM DO CARD AZUL -----*/
+
 
 @media (max-width: 768px){
     .gridpost img{
         width: 100%;
-        height: 600px;
+        height: 100%;
     }
     nav li{
         font-size: 15px;
@@ -70,6 +442,60 @@ body{
         height: 40px;
         width: 35px;
     }
+    .cinza{
+    	top:50px;
+    	left: 0%;
+    	width: 100%;
+    	height: 61%;
+    }
+    .cinza img{
+		height: 100px;
+		width: 100px;
+		margin-top: 60px;
+		margin-left: 140px;
+		display: block;
+	}
+	.cinza button{
+		margin-top: 80px;
+		margin-left: 130px;
+	}
+	.roxo{
+    	top:69%;
+    	left: 0%;
+    	width: 100%;
+    	height:360px;
+	}
+	.roxo p{
+		margin-top: 10px;
+	}
+	.roxo button{
+		margin-top: 60px;
+		margin-left: 120px;
+	}
+    .roxo img{
+		height: 100px;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 130px;
+		display: block;	
+	}
+	.castanho{
+		top: 125%;
+    	left: 0%;
+    	width: 100%;
+    	height: 361px;
+	}
+	.castanho img{
+		height: 100px;
+		width: 100px;
+		margin-top: 50px;
+		margin-left: 130px;
+		display: block;	
+	}
+	.castanho button{
+		margin-top: 70px;
+		margin-left: 120px;
+	}
 }
 
 /** FIM GRID FOTOS */
@@ -81,6 +507,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 110px;
     
 }
 
@@ -93,6 +520,7 @@ body{
 .icones{
     margin-top: 10px;
     margin-right: 10px;
+    margin-bottom: 3px;
 	height: 30px;
 	width: 30px;
 }

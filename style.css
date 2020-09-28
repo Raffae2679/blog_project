@@ -62,7 +62,6 @@ nav  li:hover{
 	position: absolute;
 	width: 33.1%;
 	height: 448px;	
-	opacity: 0;
 }
 
 /**----- CARD Cinza ----*/
@@ -118,9 +117,7 @@ nav  li:hover{
 	
 }
 
-.cinza:hover{
-	opacity: 80%;
-}
+
 
 /** ----- FIM DO CARD CINZA -----*/
 
@@ -180,9 +177,7 @@ nav  li:hover{
 	
 }
 
-.roxo:hover{
-	opacity: 80%;
-}
+
 
 /** -------- FIM DO CARD ROXO --------*/
 
@@ -241,9 +236,7 @@ nav  li:hover{
 	
 }
 
-.castanho:hover{
-	opacity: 80%;
-}
+
 
 /**----- FIM DO CARD CASTANHO -----*/
 
@@ -303,9 +296,7 @@ nav  li:hover{
 	
 }
 
-.amarelo:hover{
-	opacity: 70%;
-}
+
 
 /**----- FIM DO CARD AMARELO -----*/ 
 
@@ -363,9 +354,7 @@ nav  li:hover{
 	
 }
 
-.verde:hover{
-	opacity: 80%;
-}
+
 
 
 /**----- FIM DO CARD VERDE -----*/
@@ -425,9 +414,7 @@ nav  li:hover{
 	
 }
 
-.azul:hover{
-	opacity: 80%;
-}
+
 
 /**----- FIM DO CARD AZUL -----*/
 
