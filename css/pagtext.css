@@ -1,6 +1,6 @@
 body{
     background:linear-gradient(to top, #CCC ,#737373);    
-    height: 290vh;
+    height: 315vh;
 }
 
 nav img{
@@ -174,7 +174,7 @@ nav img{
     }
 
     body{
-        height: 150vh;
+        height: 175vh;
     }
 
     .modalConteudo{
