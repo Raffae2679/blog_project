@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Universo Está em Ti</title>
+
+    <link rel="stylesheet" href="css/pagtext.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body onload="loadOptions()">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:rgb(17, 14, 14)">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/estrelas.jpeg" alt=""> Am I a Poet?</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_projeto.html">Eu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre_projeto.html">Textos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="busca">
+        <input list="options" id="search" placeholder="Digite aqui..." type="text" autocomplete="off">
+        <datalist id="options">
+            
+        </datalist>
+        <button onclick="searchText(event)" class="btn-search"><img src="img/lupa.png" alt="Lupa"></button>
+    </div>
+
+    <div class="caixa">
+        <div class="blocoTexto">
+            <img src="img/universe.jpg" alt="alone" onclick="clique(this)">
+
+            <div class="conteudo">
+                <h1>O Universo Está em Ti</h1>
+
+                <p>
+                    Olho em seus olhos e vejo a imensidão do mundo contido neles. <br><br>
+                    Galáxias escondidas e planetas distantes, tudo resumido em um único semblante, em um único
+                    olhar...<br><br>
+                    Quando vejo teus castanhos, eu me perco e começo a mergulhar.<br><br>
+                    Vou tão fundo que pareço estar em um buraco negro, onde apenas estou a nadar...<br><br>
+                    Quando olho para eles no espelho, entendo porque muitos fogem.<br><br>
+                    O olhar penetrante de um universo intenso, é de amendrontar quem realmente não sabe nadar.<br><br>
+                    Aprecie de longe, caso não queira se aproximar. Só olhe no centro se você quiser que a reciprocidade
+                    do olhar, pois senão, não me responsabilizo caso se perca no universo do meu olhar.
+                </p>
+            </div>
+        </div>
+
+        <!-- Modal da imagem -->
+        <div id="janelaModal" class="modalVisual">
+            <span class="fechar">x</span>
+            <img class="modalConteudo" id="imgModal">
+            <div id="txtImg"></div>
+        </div>
+
+        <!-- Coluna com os ultimos textos publicados -->
+        <div class="news">
+            <h3>Últimos Textos</h3>
+            <div>
+                <a href="i-miss-you.html"><img src="img/alone.jpg" alt="" style="cursor: pointer;"></a>
+            </div>
+
+            <div>
+                <a href="o-universo-esta-em-ti.html"><img src="img/universe.jpg" alt=""></a>
+            </div>
+
+            <div>
+                <a href="castanhos.html"><img src="img/castanho.jpeg" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+
+    <script src="script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
