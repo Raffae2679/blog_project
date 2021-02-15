@@ -7,6 +7,12 @@
 	height: 100%;
 }
 
+nav, nav a, nav li{
+    font-family: 'Newsreader', serif !important;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 nav img{
     height: 40px;
     width: 40px;
@@ -58,6 +64,11 @@ nav img{
 
 .praia{
     background-image: url(../img/flashback.jpeg);
+}
+
+h1{
+    font-family: 'Newsreader', serif !important;
+    font-weight: bold!important;
 }
 
 button{

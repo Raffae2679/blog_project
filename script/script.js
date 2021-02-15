@@ -41,6 +41,7 @@ function loadOptions(){
 
 function searchText(event){
     search = document.querySelector('input').value
+    match = false
 
     if(search == ""){
         alert("Preencha o campo para buscar o texto")
@@ -50,8 +51,14 @@ function searchText(event){
     for(i=0; i<publicacoes.textos.length; i++){
         if(search == publicacoes.textos[i].nome){
             window.location.href = publicacoes.textos[i].link;
+            match = true
         }
     }
+
+    if(match==false){
+        alert("Resultado não encontrado!")
+    }
+    
 }
 
 
